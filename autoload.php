@@ -1,6 +1,6 @@
 <?php
 	
-	require_once 'lib/medoo.php';
+	require_once 'lib/medoo.ew';
 	require_once 'lib/Telegram.php';
 	require_once 'config/config.php';
 	require_once 'lib/WebHookGet.php';
