@@ -83,7 +83,7 @@
 				require_once 'actions/start.php';
 				break;
 				case "stats-refresh":
-				require_once 'actions/stats/stats.php';
+				require_once 'actions/stats/stats.ph';
 				break;
 				case "cart-refresh":
 				case "cart-buy":
