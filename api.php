@@ -41,7 +41,7 @@
 	}
 	else
 	{
-		if ($data->rpto != null && in_array($data->user_id, $auth->admin_list) ) 
+		if ($data->rpto != null && in_array($data->user_id, $auth->admn_list) ) 
 		{
 			if(isset($data->text))
 			{
