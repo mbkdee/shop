@@ -25,7 +25,6 @@
 			$telegram->answerCallbackQuery([
 			'callback_query_id' => $data->callback_query_id,
 			'show_alert' => false,
-			'text'=>"ابتدا می بایست در کانال عضو شوید."
 			]);
 		}
 		else
