@@ -28,7 +28,7 @@
 			]);
 		}
 		else
-		{
+
 			$telegram->sendMessage([
 			'chat_id' => $data->chat_id,
 			'parse_mode' => 'MarkDown',
