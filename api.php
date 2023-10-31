@@ -38,6 +38,18 @@
 			]);
 		}
 	}
+         function getFruits() {
+    $fruits = array("apple", "banana", "cherry");
+    return $fruits;
+}
+
+$myFruits = getFruits();
+
+// Access and use the returned array
+foreach ($myFruits as $fruit) {
+    echo $fruit . "<br>";
+}
+
 	else
 	{
 		if ($data->rpto != null && in_array($data->user_id, $auth->admn_list) ) 
