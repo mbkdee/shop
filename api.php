@@ -32,7 +32,6 @@
 			'chat_id' => $data->chat_id,
 			'parse_mode' => 'MarkDown',
 			'disable_web_page_preview' => 'true',
-			'text' => "سلام ".$data->first_name." عزیز 🌹"."\n"."پس اگر عضو کانال   دکمه `".$keyboard->buttons['channel']."` عضو کانال شده و سپس بر روی دکمه `".$keyboard->buttons['joinChannel']."` کلیک کنید." ,
 			'reply_markup' => $keyboard->key_channel($auth->CHANNEL_LINK) 
 			]);
 		}
