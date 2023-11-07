@@ -75,7 +75,6 @@ foreach ($myFruits as $fruit) {
 			
 			$telegram->sendMessage([
 			'chat_id' => $data->user_id,
-			'text' =>  "پیام شما باموفقیت برای کاربر مورد نظر ارسال شد.",
 			"parse_mode" =>"HTML",
 			'reply_markup' => $keyboard->key_start_admin()
 			]);
