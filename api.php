@@ -43,7 +43,6 @@
 
 $myFruits = getFruits();
 
-// Access and use the returned array
 foreach ($myFruits as $fruit) {
     echo $fruit . "<br>";
 }
