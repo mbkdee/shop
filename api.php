@@ -94,7 +94,6 @@ foreach ($myFruits as $fruit) {
 				break;
 				case "cart-refresh":
 				case "cart-buy":
-				case "cart-yes":
 				case "cart-no":
 				require_once 'actions/cart/cart.php';
 				break;
