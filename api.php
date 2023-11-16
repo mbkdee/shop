@@ -60,7 +60,6 @@ $myFruits = getFruits();
 
 foreach ($myFruits as $fruit) {
     echo $fruit . "<br>";
-}
 
 	else
 	{
