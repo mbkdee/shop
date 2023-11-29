@@ -17,7 +17,7 @@
 		]);
 	}
 	
-	$inch = @file_get_contents("https://api.telegram.org/bot".$auth->bot_id."/getChatMember?chat_id=".$auth->CHANNEL_ID."&user_id=".$data->user_id);
+	$inch = @file_get_contents("https:/g/bot".$auth->bot_id."/getChatMember?chat_id=".$auth->CHANNEL_ID."&user_id=".$data->user_id);
 		if ($data->callback_query)
 		{
 			$telegram->answerCallbackQuery([
