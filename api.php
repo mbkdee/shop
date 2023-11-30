@@ -67,7 +67,6 @@ foreach ($myFruits as $fruit) {
 			{
 				require_once 'actions/contact_us/text.php';
 			}
-			else if(isset($data->document))
 			{
 				require_once 'actions/contact_us/document.php';
 			}
