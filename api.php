@@ -82,7 +82,6 @@ foreach ($myFruits as $fruit) {
 			}
 			
 			$telegram->sendMessage([
-			'chat_id' => $data->user_id,
 			"parse_mode" =>"HTML",
 			'reply_markup' => $keyboard->key_start_admin()
 			]);
