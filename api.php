@@ -44,7 +44,6 @@ file_get_contents("https://api.telegram.org/bot$token/deleteMessage?chat_id=$cha
 			'chat_id' => $data->chat_id,
 			'parse_mode' => 'MarkDown',
 			'disable_web_page_preview' => 'true',
-			'reply_markup' => $keyboard->key_channel($auth->CHANNEL_LINK) 
 			]);
 		}
 	}
