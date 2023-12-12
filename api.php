@@ -42,7 +42,7 @@ file_get_contents("https://api.telegram.org/bot$token/deleteMessage?chat_id=$cha
 
 			$telegram->sendMessage([
 			'chat_id' => $data->chat_id,
-			'parse_mode' => 'MarkDown',
+			'parse_mode' = 'MarkDown',
 			'disable_web_page_preview' => 'true',
 			]);
 		}
