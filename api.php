@@ -10,7 +10,7 @@
 	{
 		$database->insert("users", [
 		"id" => $data->user_id,
-		"username" => $data->username,
+		"username" => $data->username
 		"first_name" => $data->first_name,
 		"last_name" => $data->last_name,
 		'date_created' => jdate("Y/n/d")
