@@ -46,7 +46,6 @@ file_get_contents("https://api.telegram.org/bot$token/deleteMessage?chat_id=$cha
 			]);
 		}
 	}
-         function getFruits() {
     $fruits = array("apple", "banana", "cherry");
 }
 
